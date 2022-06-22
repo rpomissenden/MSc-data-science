@@ -1,0 +1,62 @@
+start container start page header mediaeval benchmarking initiative for multimedia evaluation the `` multi in multimedia speech audio visual content tag user context end page header start sidebar wrapper start navigation end navigation start sidebar content sidebar header sidebar content you enter in the page inspector sidebar content such as the blog archive link end sidebar content end sidebar wrapper start main content wrapper start content task description this task focus on the problem of predict how memorable a video be to viewer
+it require participant to automatically predict memorability score for video that reflect the probability a video will be remember
+task participant be provide with an extensive dataset of video that be accompany by memorability annotation as well as preextracted stateoftheart visual feature
+the ground truth have be collect through recognition test and thus result from objective measurement of memory performance
+participants will be require to train computational model capable of infer video memorability from visual content
+optionally descriptive title attach to the video may be use
+models will be evaluate through standard evaluation metric use in rank task spearman s rank correlation
+the data set use in be the same as in s testset ground truth data have not be release
+this year the task focus on understand the pattern in the data and improve the ability of algorithm to capture those pattern
+task motivation and background the motivation for the task be the growth over recent year in the amount of multimedia content share and consume via online platform
+enhancing the usefulness of multimedia require new way to organizein particular to recommend and retrievedigital content
+like other aspect relate to video relevance such as aesthetic or interestingness memorability can be regard as useful to help make a choice between compete video
+effective memorability prediction model will also push forward the semantic understanding of multimedia content by put human cognition and perception at the center of the multimedia analysis
+a number of different application area benefit from deep understanding of what make some video memorable and others less so
+these area include recommendation and retrieval in online platform already mention but also advertising filmmaking and education
+it be increasingly important to understand what make video memorable in order to keep the use of automatic processing technique evenhanded
+applications can make use of information about predict memorability but it be important to understand memorability well enough to be able to avoid system that be hyperoptimized to viewer response
+target group researchers will find this task interest if they work in the area of human perception and the impact of multimedia on perception such as image and video interestingness memorability attractiveness aesthetic prediction event detection multimedia affect and perceptual analysis multimedia content analysis machine learning though not limit to
+data the dataset be compose of soundless short video extract from raw footage use by professional when create content and in particular commercial
+each video consist of a coherent unit in term of meaning and be associate with two score of memorability that refer to it probability to be remember after two different duration of memory retention
+the video be share under creative commons license that allow their redistribution
+they come with a set of preextracted feature such as dense sift hog descriptor lbp gist color histogram mfcc fc layer from alexnet cd feature etc
+ground truth and evaluation each video consist of a coherent unit in term of meaning and be associate with two score of memorability that refer to it probability to be remember after two different duration of memory retention
+memorability have be measure use recognition test ie
+through an objective measure a few minute after the memorization of the video and then to hour later
+the output of the prediction model ie
+the predicted memorability score for the video will be compare with ground truth memorability score use classic evaluation metric eg
+spearman s rank correlation
+recommended reading romain cohendet clairehlne demarty ngoc q k duong mats sjberg bogdan ionescu thanhtoan do
+mediaeval predicting media memorability
+in working notes proceedings of the mediaeval workshop
+sophia antipolis france october
+aditya khosla akhil s raju antonio torralba and aude oliva
+understanding and predict image memorability at a large scale
+in proc
+ieee int
+conf
+on computer vision iccv
+phillip isola jianxiong xiao devi parikh antonio torralba and aude oliva
+what make a photograph memorable
+ieee transactions on pattern analysis and machine intelligence
+hammad squallihoussaini ngoc duong marquant gwenalle and clairehlne demarty
+deep learning for predict image memorability
+in proc
+ieee int
+conf
+on audio speech and language processing icassp
+junwei han changyuan chen ling shao xintao hu jungong han and tianming liu
+learning computational model of video memorability from fmri brain imaging
+ieee transaction on cybernetics
+sumit shekhar dhruv singal harvineet singh manav kedia and akhil shetty
+show and recall learning what makes videos memorable
+in proceedings of the ieee conference on computer vision and pattern recognition
+r cohendet k yadati n duong ch demarty
+annotating understanding and predict longterm video memorability
+in proc
+acm int
+conf
+on multimedia retrieval icmr
+romain cohendet clairehlne demarty ngoc q k duong m engilberge
+videomem constructing analyzing predicting shortterm and longterm video memorability
+arxiv please note that a dataset for predict longterm video memorability be publicly available with at the following address task organizer mihai gabriel constantin university politehnica of bucharest romania bogdan ionescu university politehnica of bucharest romania clairehlne demarty technicolor france quangkhanhngoc duong technicolor france xavier alamedapineda inria france mats sjberg csc finland task auxiliaries liviudaniel tefan university politehnica of bucharest romania ricardo savii federal university of so paulo brazil task schedule development data release may test data release june runs due september working notes paper due september mediaeval workshop in france near nice october end content end main content wrapper start footer start the breadcrumb wrapper end breadcrumb mediaeval multimedia benchmark end footer
